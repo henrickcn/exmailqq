@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 
 
-namespace ExmailQQ;
+namespace Henrick\ExmailQQ;
 
 
 use Curl\Curl;

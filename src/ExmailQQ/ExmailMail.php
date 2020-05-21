@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 
 
-namespace ExmailQQ;
+namespace Henrick\ExmailQQ;
 
 
 class ExmailMail extends ExmailQQCore

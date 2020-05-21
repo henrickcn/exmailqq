@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 
 
-namespace ExmailQQ;
+namespace Henrick\ExmailQQ;
 
 
 class ExmailUserOption extends ExmailQQCore
