@@ -1,7 +1,11 @@
 {
     "name": "henrick/exmailqq",
     "description": "腾讯企业邮箱开放平台SDK",
+    "version": "1.0.0",
     "type": "library",
+    "keywords": ["exmail","腾讯企业邮箱","腾讯企业邮箱SDK","腾讯企业邮箱开放平台"],
+    "homepage": "https://henrickcn.github.io/exmailqq/",
+    "license": ["Apache-2.0","MIT"],
     "autoload": {
         "psr-4": {
             "ExmailQQ\\" : "src/"
@@ -12,8 +16,10 @@
     },
     "authors": [
         {
-            "name": "henrick",
-            "email": "henrick@vip.qq.com"
+            "name": "Johny He",
+            "email": "henrick@vip.qq.com",
+            "homepage": "https://www.johnyzone.com",
+            "role": "Developer"
         }
     ]
 }
