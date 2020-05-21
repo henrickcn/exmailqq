@@ -1,0 +1,14 @@
+{
+    "name": "henrick/exmailqq",
+    "description": "腾讯企业邮箱开放平台SDK",
+    "type": "library",
+    "require": {
+        "curl/curl": "*"
+    },
+    "authors": [
+        {
+            "name": "henrick",
+            "email": "henrick@vip.qq.com"
+        }
+    ]
+}
