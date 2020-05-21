@@ -15,7 +15,7 @@ composer require henrick/exmailqq
 或者在composer.json文件追加此行
 
 ```json
-"henrick/exmailqq": "^1.0"
+"henrick/exmailqq": "*"
 ```
 
 ## 使用方法
@@ -29,5 +29,20 @@ $exmail = new ExmailQQ\ExmailQQMailList($corpid, $corpsecret);
 $token = $exmail->getAccessToken(); //获取access_token
 $department = $exmail->getDepartmentList($token);
 ```
+## 开发注意事项
+* access_token获取后，需要开发者自行保存维护，建议存储到redis或者其他缓存中。
 
-## 类型接口方法列表
+## 类文件说明
+* ExmailQQCore.php
+> SDK公共文件，封装了curl方法及获取access_token方法
+* ExmailMailList.php
+> 通讯录接口，包括：管理部门、管理成员、管理标签、管理邮件群组
+* ExmailUserOption.php
+> 功能设置，包括：获取功能属性，更改功能属性
+* ExmailLog.php
+> 系统日志，包括：查询邮件概况、查询邮件、查询成员登录、查询批量任务、查询操作记录
+* ExmailMail.php
+> 新邮件提醒，单点登录，包括：获取邮件未读数、获取登录企业邮的url
+
+如果觉得有帮助到你，也欢迎各路大佬打赏！
+
