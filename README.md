@@ -15,15 +15,10 @@ composer require henrick/exmailqq
 或者在composer.json文件追加此行
 
 ```json
-"henrick/exmailqq": "^2.0"
+"henrick/exmailqq": "^1.0"
 ```
 
 ## 使用方法
-
-```php
-$ = new Curl\Curl();
-$curl->get('http://www.example.com/');
-```
 
 ```php
 $corpid     = "test0001";  //公司ID
