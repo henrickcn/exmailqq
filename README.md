@@ -45,4 +45,4 @@ $department = $exmail->getDepartmentList($token);
 > 新邮件提醒，单点登录，包括：获取邮件未读数、获取登录企业邮的url
 
 如果觉得有帮助到你，也欢迎各路大佬打赏！
-
+<img src="https://henrickcn.github.io/exmailqq/img/wechat-pay.jpeg" width = "300" height = "300" div align=left />
