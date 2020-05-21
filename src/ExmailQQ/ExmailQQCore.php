@@ -49,6 +49,18 @@ class ExmailQQCore
         'updateGroup' => '/cgi-bin/group/update', //更新邮件群组
         'delGroup'     => '/cgi-bin/group/delete', //删除邮件群组
         'getGroup'     => '/cgi-bin/group/get', //获取邮件群组信息
+        //功能设置接口
+        'getUserOption'   => '/cgi-bin/useroption/get', //获取功能属性
+        'updateUserOption'=> '/cgi-bin/useroption/update', //获取功能属性
+        //系统日志
+        'mailStatusLog' => '/cgi-bin/log/mailstatus', //查询邮件概况
+        'mailLog'       => '/cgi-bin/log/mail', //查询邮件
+        'loginLog'      => '/cgi-bin/log/login', //查询成员登录
+        'batchJobLog'   => '/cgi-bin/log/batchjob', //查询批量任务
+        'operationLog'  => '/cgi-bin/log/operation', //查询操作记录
+        //新邮件提醒
+        'newCountMail'  => '/cgi-bin/mail/newcount', //获取邮件未读数
+        'loginUrlMail'  => '/cgi-bin/service/get_login_url', //获取登录企业邮的url
     ];
 
     /**
