@@ -11,8 +11,9 @@
             "ExmailQQ\\" : "src/"
         }
     },
+    "minimum-stability": "dev",
     "require": {
-        "curl/curl": "*"
+        "curl/curl": "2.3.0"
     },
     "authors": [
         {
