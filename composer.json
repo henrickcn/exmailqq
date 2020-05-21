@@ -2,6 +2,11 @@
     "name": "henrick/exmailqq",
     "description": "腾讯企业邮箱开放平台SDK",
     "type": "library",
+    "autoload": {
+        "psr-4": {
+            "ExmailQQ\\" : "src/"
+        }
+    },
     "require": {
         "curl/curl": "*"
     },
