@@ -25,7 +25,7 @@ $corpid     = "test0001";  //公司ID
 $corpsecret = "ii5Q4jihb1CcfyiT1TcIIq0ecmQKvRm"; //应用秘钥
 
 //通讯录接口
-$exmail = new ExmailQQ\ExmailQQMailList($corpid, $corpsecret);
+$exmail = new \Henrick\ExmailQQ\ExmailQQMailList($corpid, $corpsecret);
 $token = $exmail->getAccessToken(); //获取access_token
 $department = $exmail->getDepartmentList($token);
 ```
