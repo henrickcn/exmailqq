@@ -15,7 +15,7 @@ composer require henrick/exmailqq
 或者在composer.json文件追加此行
 
 ```json
-"henrick/exmailqq": "*"
+"henrick/exmailqq": "v1.0.0"
 ```
 
 ## 使用方法
